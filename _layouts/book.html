@@ -10,14 +10,8 @@
 </head>
 
 <body>
-
-<div id="wrapper" class="typo">
-
-<a href="index.html">目录</a>
-<h1 style="text-align:center">{{ page.title }}</h1><br>
-{{ content }}
-<div id="slider" style="float: left;display: block;">
-    <div class="contents">
+<div id="slider">
+    <div class="contents" id="slider2">
  <p>引言 (Introduction)</p>
  <ul>
     <li> <a href="chap01.html">第一章 引言</a> </li>
@@ -72,8 +66,18 @@
      <li> <a href="chap37.html">第三十七章 : 奇珍异宝</a> </li>
  </ul>
  </div>
+
+
+<div id="wrapper" class="typo">
+
+<a href="index.html">目录</a>
+<h1 style="text-align:center">{{ page.title }}</h1><br>
+{{ content }}
 <br />
 <a href="index.html" class= "footer" >Go to Table of Contents</a>
-</body>
 </div>
+
+
+
+</body>
 </html>
